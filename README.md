@@ -1,4 +1,4 @@
-# @herbowicz/reporting-sdk-demo
+# reporting-sdk-demo
 
 ![GitHub package.json version](https://img.shields.io/github/package-json/v/herbowicz/reporting-sdk-demo.svg)
 ![npm (tag)](https://img.shields.io/npm/v/reporting-sdk-demo/latest.svg)

@@ -1,6 +1,6 @@
 {
   "name": "reporting-sdk-demo",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "reporting sdk demo",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/herbowicz/reporting-sdk-demo.git"
+    "url": "git://github.com/herbowicz/reporting-sdk-demo.git"
   },
   "keywords": [
     "reporting",
