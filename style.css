@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css?family=Ubuntu");
+
+* {
+  box-sizing: border-box;
+}
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+body {
+  text-align: center;
+  font-family: "Ubuntu", sans-serif;
+}
+h1,
+h3,
+p {
+  text-align: center;
+}
+button {
+  font-size: small;
+  padding: 0 7px;
+  margin: 0 1px;
+  background: #fff;
+  border: 0.5px solid #999;
+}
+
+path {
+  stroke: #ccc;
+  stroke-width: 0.25px;
+  fill: #666;
+}
+
+path.slice {
+  stroke-width: 2px;
+}
+polyline {
+  opacity: 0.3;
+  stroke: black;
+  stroke-width: 2px;
+  fill: none;
+}
+svg text.percent {
+  fill: white;
+  text-anchor: middle;
+  font-size: 14px;
+}
+
+#tooltip {
+  text-align: left;
+  padding: 16px;
+  background-color: rgba(256, 256, 256, 0.9);
+  border: 1px solid #666;
+  width: auto;
+  opacity: 0;
+  color: black;
+  position: absolute;
+}
+
+#population {
+  font-weight: bold;
+}
+
+.extra,
+#reclat,
+#reclong,
+.geo {
+  font-size: small;
+}
+
+sidebar {
+  display: inline;
+}
+
+.legend {
+  text-align: right;
+  line-height: 1em;
+  display: flex;
+  flex-direction: column;
+  letter-spacing: space-between;
+  margin-right: 40px;
+}
+
+.legend span {
+  color: #666;
+  font-size: small;
+}
+
+header,
+footer,
+.hg,
+.boardmap {
+  padding: 0 10px;
+}
+header,
+footer {
+  background: lightgrey;
+  color: darkslategrey;
+}
+.hg {
+  background: whitesmoke;
+}
+
+/* Flex */
+.dashboard {
+  min-height: 100vh;
+}
+.dashboard,
+.main {
+  display: flex;
+  flex: auto;
+  flex-direction: column;
+  justify-content: center;
+}
+@media (min-width: 768px) {
+  .sidebar {
+    order: -1;
+  }
+  .main {
+    flex-direction: row;
+  }
+  .hg {
+    flex: 0 0 260px;
+  }
+}
