@@ -1,13 +1,18 @@
-import React, { Component } from 'react';
+import React from "react";
 
-export default class DummyComponent extends Component {
+const Dashboard = props => {
+  const { width, height, color, text } = props;
+  return (
+    <div
+      style={{
+        width: width || 600,
+        height: height || 300,
+        backgroundColor: color || "blue"
+      }}
+    >
+      <h1>Dashboard boilerplate: {text}</h1>
+    </div>
+  );
+};
 
-    render () {
-
-        return (
-            <div>I am a dummy react npm module</div>
-        )
-
-    }
-
-}
+export default Dashboard;
