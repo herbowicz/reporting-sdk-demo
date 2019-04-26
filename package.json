@@ -1,6 +1,6 @@
 {
   "name": "reporting-sdk-demo",
-  "version": "1.8.1",
+  "version": "1.8.2",
   "description": "reporting sdk demo",
   "main": "index.js",
   "scripts": {
